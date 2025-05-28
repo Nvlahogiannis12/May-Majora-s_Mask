@@ -19,10 +19,14 @@ body {
 
 .banner{
     width:100%;
-    height:50%;
+    height:80vh !important;
     object-fit: cover;
     object-position: center;
     box-shadow:0 0 10px darkslategray, 0 0 15px darkred;
+}
+img[src="imgs/west-clockTown.jpg"] {
+    object-position: bottom;
+    object-fit: 100% 100%;
 }
 .card img{
     width:100%;
@@ -30,4 +34,7 @@ body {
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position:center top;
+}
+.titleOfPage{
+    font-size:75px;
 }
