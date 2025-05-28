@@ -24,3 +24,10 @@ body {
     object-position: center;
     box-shadow:0 0 10px darkslategray, 0 0 15px darkred;
 }
+.card img{
+    width:100%;
+    height:auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position:center top;
+}
