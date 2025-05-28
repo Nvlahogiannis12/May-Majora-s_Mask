@@ -65,7 +65,7 @@ const townsfolk = [
     Role: "Manager of Indigo-Gos",
   },
   {
-    Photo: "imgs/Gorman_Brothers_MM.webp",
+    Photo: "imgs/Gorman_MM.webp",
     Name: "Gorman",
     Role: "Leader of Traveling troupe",
   },
