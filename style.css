@@ -40,3 +40,26 @@ img[src="imgs/west-clockTown.jpg"] {
 .card:hover {
     color: red;
 }
+.skullKid{
+    width:450px;
+    height:auto;
+    margin-top:100px;
+}
+.float{
+    animation:float;
+    animation-timing-function: linear;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    overflow:hidden;
+}
+@keyframes float{
+    0%{
+        transform: translate(0%, 0%)
+    }
+    50%{
+        transform: translate(0%, -5%)
+    }
+    100%{
+        transform: translate(0%, 0%)
+    }
+}

@@ -4,6 +4,15 @@ function checkPage() {
   page = page[page.length - 1];
 }
 checkPage();
+if (page == "index.html") {
+  document
+    .querySelectorAll("#vanishify")
+    .forEach((e) => e.classList.add("d-none"));
+  type(
+    document.getElementById("fateSeeled"),
+    "You've met with a terrible fate, haven't you?"
+  );
+}
 document.addEventListener("DOMContentLoaded", () => {
   if (page == "characters.html") {
     const grid = document.getElementById("rosterGrid");
@@ -73,3 +82,14 @@ document.addEventListener("DOMContentLoaded", () => {
     render(masks);
   }
 });
+
+function type(location, message) {
+  message = message.split("");
+  for (let i = 0; i < message.length; i++) {
+    setTimeout(() => {
+      location.append(message[i]);
+    }, 90 * i);
+  }
+  let audio = new Audio("audio/Skull Kid.mp3");
+  audio.play();
+}
