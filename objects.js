@@ -165,7 +165,7 @@ const masks = [
     Photo: "imgs/Stone_Mask.webp",
     Name: "Stone Mask",
     Obtained: "Obtained By: Helping Shiro",
-    Purpose: "Allows Link to be invisible to guards in various locations",
+    Purpose: "Allows Link to be not seen by guards in various locations",
   },
   {
     Photo: "imgs/Great_Fairy_Mask.webp",

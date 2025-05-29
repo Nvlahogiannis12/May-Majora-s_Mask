@@ -51,13 +51,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         col.innerHTML = `
             <div class="card h-100 shadow-sm">
-                <img src="${masks.Photo}" class="card img-top" alt="${masks.Name}}">
+                <img src="${masks.Photo}" class="card img-top" alt="${masks.Name}">
                 <div class="card-body text-center">
                     <h5 class="card-title mb-1">
                     ${masks.Name}
                     </h5>
-                    <div class='badge-pos-${masks.Obtained}'>
-                        ${masks.Obtained}
+                    <div class='badge-pos-${masks.Purpose}'>
+                        ${masks.Purpose}
                     </div>
                     <p class="small text-muted mb-0">
                         
