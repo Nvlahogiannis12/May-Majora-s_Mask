@@ -4,7 +4,7 @@ function checkPage() {
   page = page[page.length - 1];
 }
 checkPage();
-if (page == "index.html") {
+if (document.body.classList.contains("in")) {
   document
     .querySelectorAll("#vanishify")
     .forEach((e) => e.classList.add("d-none"));
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const render = (list) => {
       grid.innerHTML = "";
 
-      list.forEach((townsfolk) => {
+      list.forEach((townsfolk, index) => {
         const col = document.createElement("div");
 
         col.className = "col-6 col-lg-2";
@@ -38,14 +38,25 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p class="small text-muted mb-0">
                         
                     </p>
+                    
+            <button class="btn btn-sm btn-primary show-info-btn" data-player-index="${index}" data-bs-toggle="modal" data-bs-target="#playerModal">
+            More Info
+          </button>
+
                 </div>
             </div>
             `;
 
         grid.appendChild(col);
+        get(`button[data-player-index="${index}"]`).addEventListener(
+          "click",
+          () => {
+            get(".modal-title").textContent = townsfolk.Name;
+            get(".modal-body").textContent = townsfolk.Name;
+          }
+        );
       });
     };
-
     render(townsfolk);
   } else if (page == "masks.html") {
     const grid = document.getElementById("rosterGrid");
@@ -86,10 +97,18 @@ document.addEventListener("DOMContentLoaded", () => {
 function type(location, message) {
   message = message.split("");
   for (let i = 0; i < message.length; i++) {
-    setTimeout(() => {
-      location.append(message[i]);
-    }, 90 * i);
+    setTimeout(() => location.append(message[i]), 90 * i);
   }
-  let audio = new Audio("audio/Skull Kid.mp3");
-  audio.play();
+  setTimeout(() => {
+    let audio = new Audio("audio/Skull Kid.mp3");
+    audio.play();
+    document.getElementById("fateSeeled").classList.add("d-none");
+    document.getElementById("skullKid").classList.add("d-none");
+    document
+      .querySelectorAll("#vanishify")
+      .forEach((e) => e.classList.remove("d-none"));
+  }, 90 * message.length);
+}
+function get(arg) {
+  return document.querySelector(arg);
 }
