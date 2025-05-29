@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const render = (list) => {
       grid.innerHTML = "";
 
-      list.forEach((masks) => {
+      list.forEach((masks, index) => {
         const col = document.createElement("div");
 
         col.className = "col-6 col-lg-2";
@@ -82,14 +82,24 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p class="small text-muted mb-0">
                         
                     </p>
+            <button class="btn btn-sm btn-primary show-info-btn" data-player-index="${index}" data-bs-toggle="modal" data-bs-target="#playerModal">
+            More Info
+          </button>
+
                 </div>
             </div>
             `;
 
         grid.appendChild(col);
+        get(`button[data-player-index="${index}"]`).addEventListener(
+          "click",
+          () => {
+            get(".modal-title").textContent = masks.Name;
+            get(".modal-body").textContent = masks.Obtained;
+          }
+        );
       });
-    };
-
+      };
     render(masks);
   }
 });

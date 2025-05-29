@@ -206,7 +206,7 @@ const masks = [
   {
     Photo: "imgs/Romanis_Mask.webp",
     Name: "Romani's Mask",
-    Obtained: "Obtained By: Escorting Romani and her Milk order to Clock Town",
+    Obtained: "Obtained By: Assisting Romani with her milk delivery",
     Purpose: "Allows Link to enter the Milk Bar",
   },
   {
