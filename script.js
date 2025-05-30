@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "click",
           () => {
             get(".modal-title").textContent = townsfolk.Name;
-            get(".modal-body").textContent = townsfolk.Name;
+            get(".modal-body").textContent = townsfolk.Story;
           }
         );
       });

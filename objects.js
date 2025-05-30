@@ -3,16 +3,19 @@ const townsfolk = [
     Photo: "imgs/Link_MM.webp",
     Name: "Link",
     Role: "Hero of Time",
+    Story: "After chasing Majora into Termina. Link must find the 4 giants to stop the moon from crashing.",
   },
   {
     Photo: "imgs/Skull_Kid_Majora.jpg",
     Name: "Majora",
     Role: "Possessed Host",
+    Story: "A once mischievous kid steals the ancient Majora's Mask. The Mask was said to have an ancient dark power within.",
   },
   {
     Photo: "imgs/Happy_Mask_Salesman_MM.webp",
     Name: "Happy Mask Salesman",
     Role: "Mask Salesman",
+    Story: "The Happy Mask Salesman was traveling through the woods with his mask collection when Skull Kid stole it. He now needs the mask back before he leaves town in 3 days."
   },
   {
     Photo: "imgs/Bombers_MM.webp",
