@@ -4,7 +4,8 @@ html {
 }
 body {
     width: 100%;
-    padding: 0 !important;
+    height:100%;
+    padding: 0 0 1000px !important;
     background-image: linear-gradient(rgb(50, 50, 50), rgb(0, 0, 0));
     background-position:center bottom;
     background-size:cover;
@@ -33,6 +34,7 @@ img[src="imgs/west-clockTown.jpg"] {
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position:center top;
+    border:solid 5px rgb(60, 0, 0);
 }
 .titleOfPage{
     font-size:75px;
@@ -65,4 +67,15 @@ img[src="imgs/west-clockTown.jpg"] {
 }
 .modal {
     color: black !important;
+}
+.btn{
+    border:solid black 1px;
+    color:white;
+    background-color: indigo;
+}
+.btn:hover{
+    background-color: rgb(40, 0, 70);
+}
+#rosterGrid{
+    padding-bottom: 25px;
 }

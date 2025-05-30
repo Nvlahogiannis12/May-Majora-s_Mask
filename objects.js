@@ -4,14 +4,14 @@ const townsfolk = [
     Name: "Link",
     Role: "Hero of Time",
     Story:
-      "After chasing Majora into Termina. Link must find the 4 giants to stop the moon from crashing.",
+      "While traveling through the woods to look for a friend Link is ambushed by Majora. Link is then cursed by Majora to be A Deku Scrub and falls into Termina. In Termina Link must then find the 4 giants to stop the moon from crashing.",
   },
   {
     Photo: "imgs/Skull_Kid_Majora.jpg",
     Name: "Majora",
     Role: "Possessed Host",
     Story:
-      "A once mischievous kid steals the ancient Majora's Mask. The Mask was said to have an ancient dark power within.",
+      "A once mischievous kid steals the ancient Majora's Mask. The Mask was said to have an ancient dark power within. He uses the power to cause chaos and tries to crash the moon into Termina.",
   },
   {
     Photo: "imgs/Happy_Mask_Salesman_MM.webp",
@@ -150,11 +150,13 @@ const townsfolk = [
     Photo: "imgs/Shiro_MM.webp",
     Name: "Shiro",
     Role: "Soldier",
+    Story:"Shiro's Existence is quite literally overlooked. He is a Clock Town soldier just like every other one. He is invisible to everyone.",
   },
   {
     Photo: "imgs/Guru-Guru_MM.webp",
     Name: "Guru-Guru",
     Role: "Gorman Troupe Musician",
+    Story:"He is a Musician employed by the Gorman Troupe. On the First Night he is seen playing his Grinder Organ in the Stock Pot Inn until he is kicked out for being too loud. He then retreats to the Laundry Pool where he plays music there unbothered.",
   },
 ];
 
