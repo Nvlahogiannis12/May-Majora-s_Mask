@@ -3,109 +3,148 @@ const townsfolk = [
     Photo: "imgs/Link_MM.webp",
     Name: "Link",
     Role: "Hero of Time",
-    Story: "After chasing Majora into Termina. Link must find the 4 giants to stop the moon from crashing.",
+    Story:
+      "After chasing Majora into Termina. Link must find the 4 giants to stop the moon from crashing.",
   },
   {
     Photo: "imgs/Skull_Kid_Majora.jpg",
     Name: "Majora",
     Role: "Possessed Host",
-    Story: "A once mischievous kid steals the ancient Majora's Mask. The Mask was said to have an ancient dark power within.",
+    Story:
+      "A once mischievous kid steals the ancient Majora's Mask. The Mask was said to have an ancient dark power within.",
   },
   {
     Photo: "imgs/Happy_Mask_Salesman_MM.webp",
     Name: "Happy Mask Salesman",
     Role: "Mask Salesman",
-    Story: "The Happy Mask Salesman was traveling through the woods with his mask collection when Skull Kid stole it. He now needs the mask back before he leaves town in 3 days."
+    Story:
+      "The Happy Mask Salesman was traveling through the woods with his mask collection when Skull Kid stole it. He now needs the mask back before he leaves town in 3 days.",
   },
   {
     Photo: "imgs/Bombers_MM.webp",
     Name: "Bombers",
     Role: "Secret Society of Justice",
+    Story:
+      "A group of Kids in town who started a gang dedicated to helping people 24 hours a day",
   },
   {
     Photo: "imgs/MM_Anju.webp",
     Name: "Anju",
     Role: "Stock Pot Inn Innkeeper",
+    Story:
+      "After the death of her Father Anju & her mother rent rooms of the Stock Pot Inn. Anju was engaged to Kafei before he went missing days before the wedding. She is constantly worried about him and doubts his love for her",
   },
   {
     Photo: "imgs/Kafei_MM.webp",
     Name: "Kafei",
     Role: "Mysterious Youth",
+    Story:
+      "Kafei fell in love with Anju they were engaged and promised to fuse the Sun Mask and the Moon Mask into the Couples mask the morning of their wedding. However Majora cursed Kafei to be a child again and then had his mask stolen by a thief. Ashamed, Kafei disappeared.",
   },
   {
     Photo: "imgs/Man_from_Curiosity_Shop_MM.webp",
     Name: "Curiosity Shop Keeper",
     Role: "Shop Keeper",
+    Story:
+      "His shop is a mysterious shop that is only open at night. The shop is dedicated to selling random stolen items.",
   },
   {
     Photo: "imgs/Old_Lady_MM.webp",
     Name: "Old Lady",
     Role: "Bomb Shop Owner",
+    Story:
+      "The Old Lady owns and runs the Bomb shop. On her way to the bomb shop on the first night in the cycle a theif steals her bag of bombs bringing it to the Curiosity Shop.",
   },
   {
     Photo: "imgs/Romani_MM.webp",
     Name: "Romani",
     Role: "Young Farm Girl",
+    Story:
+      "Romani is a Young Farm Girl who is looked after by her Older Sister (Cremia). She claims to have seen aliens abduct the cows and plans to stay in the barn to stop them. If link chooses to help her she will succeed without link she fails and loses her memories after being abducted.",
   },
   {
     Photo: "imgs/Cremia_MM.webp",
     Name: "Cremia",
     Role: "Manager of Romani Ranch",
+    Story:
+      "Since the death of her parents Cremia takes care of her younger Sister (Romani) and the Farm. She is constantly worried about the impending end of the world when the moon crashes into Termina. Her younger sister is completely unaware and refuses to tell her to let her be happy. On the final night before the end Cremia lets Romani sleep in her room and tells her they will greet the world together tomorrow.",
   },
   {
     Photo: "imgs/Mayor_Dotour_MM.webp",
     Name: "Mr. Dotour",
     Role: "Mayor of Clock Town",
+    Story:
+      "With the Moon set to crash in 72 hours, Mr. Dotour as Mayor is put into the center of a debate. Whether to evacuate like the guards want. Or to stay and face the moon like the Townsfolk want.",
   },
   {
     Photo: "imgs/Madame_Aroma_MM.webp",
     Name: "Madame Aroma",
-    Role: "Mayor Wife",
+    Role: "Mayor's Wife",
+    Story:
+      "As part of the Clock Town Carnival Executive Committee, she is put in charge of planning Carnival of Time as well entertainment. While attempting to figure that all out she is concerned about her and Mr. Dotour's Son Kafei who has gone missing",
   },
   {
     Photo: "imgs/Toto_MM.webp",
     Name: "Toto",
     Role: "Manager of Indigo-Gos",
+    Story:
+      "Toto is the Manager of the Band the Indigo-Go's and planned to preform at the Carnival of Time. However he is forced to cancel when the lead singer Lulu loses her voice and is unable to sing.",
   },
   {
     Photo: "imgs/Gorman_MM.webp",
     Name: "Gorman",
     Role: "Leader of Traveling troupe",
+    Story:
+      "After hearing the Indigo-Gos canceled their performance at the Carnival of Time, He does the same and refuses to preform. He sits in the Milk Bar depressed drinking Chateau Romani regarding himself as a failure.",
   },
   {
     Photo: "imgs/Postman_MM.webp",
     Name: "Postman",
     Role: "Mailman",
+    Story:
+      "The Postman does his rounds every morning in Clock Town delivering letters. He is obsessed with being as punctual and effective as possible, scheduling out his entire life minute by minute and following it. He can be seen 'practicing' being exactly on time in his room. On the Final Night before the moon crashes he is seen in distress as he can either follow his schedule or run from the inevitable doom of the moon crashing.",
   },
   {
     Photo: "imgs/Rosa_Sisters_MM.webp",
     Name: "Rosa Sisters",
     Role: "Twin Dancers in Gorman Troupe",
+    Story:
+      "As performers for the Gorman Troupe they are trying to find the perfect dance for the Carnival Of Time.",
   },
   {
     Photo: "imgs/Hand_MM.webp",
     Name: "???",
     Role: "Mysterious hand found in Stockpot Inn",
+    Story:
+      "A mysterious Hand found in the Bathroom of the Stock Pot Inn, for some reason it only shows up at night and can be seen in one of the stalls asking for paper.",
   },
   {
     Photo: "imgs/Granny_MM.webp",
     Name: "Anju's Grandmother",
     Role: "Storyteller",
+    Story:
+      "Anju's Grandmother can be seen sitting in the Stock Pot Inn in her room. If Link approaches her she will call him Totus, her son and Anju's Father who died years ago. She pretends to be sick to avoid Anju's cooking (inferred to be terrible). She is a great story teller and enjoys telling the Story of the Carnival of Time as well as the story of the Four Giants.",
   },
   {
     Photo: "imgs/Kamaro_MM.webp",
     Name: "Kamaro",
     Role: "Ghost of a Dancer",
+    Story:
+      "Kamaro was once a dancer before his death. He is filled with regret and can be seen dancing in Termina Field. He dreamed of making a new style of dance but died before he could do so. By playing the Song Of Healing link can heal his regret and help him move on.",
   },
   {
     Photo: "imgs/Grog_MM.webp",
     Name: "Grog",
     Role: "Cucco Breeder",
+    Story:
+      "Grog resides in the Cucco Shack of Romani Ranch where he raises Cuccos Chicks. He is aware the moon is about to end the world and has accepted his fate. His one regret is that he never saw the Cuccos Chicks grow up before the moon crashes.",
   },
   {
     Photo: "imgs/Gorman_Brothers_MM.webp",
     Name: "Gorman Brothers",
     Role: "Suspicious Horse Trainers",
+    Story:
+      "As Owners of the Gorman Track, they are horse trainers. However they often are regarded as rude, malicious, and sabotage people. It is implied that they steal their stock of milk from the neighboring competitors: Romani Ranch",
   },
   {
     Photo: "imgs/Shiro_MM.webp",
