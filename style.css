@@ -12,6 +12,18 @@ body {
     background-repeat:no-repeat;
     background-attachment:fixed;
     color:white;
+    font-family: 'oot';
+}
+@font-face {
+    font-family: oot;
+    src:url(chiarostd_b.otf);
+}
+h1, h5{
+    font-family: 'Triforce', sans-serif;
+}
+h2 {
+    font-family: 'Triforce', sans-serif;
+    color: rebeccapurple;
 }
 .content {
     margin: 50px 0px 0px 0px !important;
@@ -78,4 +90,7 @@ img[src="imgs/west-clockTown.jpg"] {
 }
 #rosterGrid{
     padding-bottom: 25px;
+}
+li{
+    margin-left:20px;
 }
