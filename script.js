@@ -122,3 +122,22 @@ function type(location, message) {
 function get(arg) {
   return document.querySelector(arg);
 }
+
+//Scroll Back To Top (Fancy Buttons)
+let mybutton = document.getElementById("topBtn");
+
+//scroll down from the top of the document then show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}

@@ -25,6 +25,9 @@ h2 {
     font-family: 'Triforce', sans-serif;
     color: rebeccapurple;
 }
+h2:hover{
+    text-decoration: underline;
+}
 .content {
     margin: 50px 0px 0px 0px !important;
     padding: 0 0 100px 0!important;
@@ -93,4 +96,19 @@ img[src="imgs/west-clockTown.jpg"] {
 }
 li{
     margin-left:20px;
+}
+.topBtn{
+    display:none;
+    position: fixed;
+    right: 10px;
+    bottom:10px;
+    z-index:10;
+    border:solid 2px white;
+    color:white;
+    background-color:rgb(40, 0, 70);
+    border-radius: 10px;
+}
+
+.topBtn:hover{
+    color:red;
 }
