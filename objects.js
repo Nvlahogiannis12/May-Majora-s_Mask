@@ -20,6 +20,42 @@ const townsfolk = [
     Story:
       "The Happy Mask Salesman was traveling through the woods with his mask collection when Skull Kid stole it. He now needs the mask back before he leaves town in 3 days.",
   },
+    {
+    Photo:"imgs/MM_Deku_King_Artwork.webp",
+    Name: "Deku King",
+    Role:"King Of Dekus",
+    Story:"The Kings Daughter went missing and so he is quick to say a local monkey is at fault. Despite the Monkey's innocence he is quick to judge and plans to execute the Monkey with no actual evidence.",
+  },
+  {
+    Photo:"imgs/MM_Deku_Butler_Model.webp",
+    Name: "Deku Butler",
+    Role:"Deku King's Butler",
+    Story:"When the Deku Butler looks at Link he is reminded of his son who left home and is traveling the world. He misses his son and wonders if he is well. You can see him at the end of the game discovering the tree that once was his son.",
+  },
+  {
+    Photo:"imgs/Deku_Butler_Son_MM.jpeg",
+    Name: "Deku Butler's Son",
+    Role:"Deku Butler's Son",
+    Story:"The Deku Butler's Son left home on his travels a long time ago. While traveling through the woods he meets a terrible fate when Majora uses his soul to curse Link to be a Deku Scrub. He stands as a small tree with a mix of Terror and Sadness in his eyes.",
+  },
+  {
+    Photo: "imgs/MM3D_Darmani_III_Model.webp",
+    Name:"Darmani III",
+    Role: "Goron Hero",
+    Story:"A Ghost of a Goron Hero who went off to fight a monster in Snowhead Temple but was caught in bad weather and blown off the mountain by a Blizzard. His soul lingers and haunts his grave until Link heals his soul.",
+  },
+  {
+    Photo:"imgs/Mikau_MM.jpeg",
+    Name:"Mikau",
+    Role:"Guitarist",
+    Story:"Mikau is the lead Guitarist for the Indigo-Gos and Partner to Lulu. When Lulu's eggs are stolen by Gerudo Pirates, He swims to the Pirates Fortress to recover them but is tragically killed by the pirates and left to wash up on shore of the Great Bay Coast.",
+  },
+  {
+    Photo:"imgs/Lulu_MM.jpeg",
+    Name:"Lulu",
+    Role:"Singer",
+    Story:"Lulu is the Lead Singer in the Indigo-Gos. Before the Events of the game she lays 7 eggs and then loses her voice right after. She takes the egg to the Great Coast Research lab where they are stolen from by Pirates. She can be seen staring out to sea.",
+  },
   {
     Photo: "imgs/Bombers_MM.webp",
     Name: "Bombers",

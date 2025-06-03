@@ -23,7 +23,7 @@ h1, h5{
 }
 h2 {
     font-family: 'Triforce', sans-serif;
-    color: rebeccapurple;
+    color: White;
 }
 h2:hover{
     text-decoration: underline;
@@ -50,6 +50,7 @@ img[src="imgs/west-clockTown.jpg"] {
     object-fit: cover;
     object-position:center top;
     border:solid 5px rgb(60, 0, 0);
+    padding: 0px;
 }
 .titleOfPage{
     font-size:75px;
@@ -84,9 +85,13 @@ img[src="imgs/west-clockTown.jpg"] {
     color: black !important;
 }
 .btn{
+    position:absolute;
     border:solid black 1px;
     color:white;
     background-color: indigo;
+    bottom: 5px;
+    left:50%;
+    transform: translateX(-50%)
 }
 .btn:hover{
     background-color: rgb(40, 0, 70);
@@ -111,4 +116,10 @@ li{
 
 .topBtn:hover{
     color:red;
+}
+.extraHidden{
+    overflow: hidden;
+}
+.card{
+    padding-bottom: 30px;
 }
